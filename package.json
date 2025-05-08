@@ -1,6 +1,6 @@
 {
-  "name": "logycon-pipeline-node",
-  "version": "0.1.0",
+  "name": "pipeline-node",
+  "version": "0.1.1",
   "description": "A simple pipeline runner for Node.js tasks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

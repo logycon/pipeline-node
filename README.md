@@ -1,11 +1,11 @@
-# logycon-pipeline
+# pipeline-node
 
 A simple pipeline runner for Node.js tasks that allows you to define and execute a series of tasks in sequence.
 
 ## Installation
 
 ```bash
-npm install logycon-pipeline
+npm install pipeline-node
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ npm install logycon-pipeline
 2. Use the pipeline in your code:
 
 ```typescript
-import { Pipeline } from 'logycon-pipeline';
+import { Pipeline } from 'pipeline-node';
 
 async function main() {
   const pipeline = new Pipeline('./pipeline.json');
